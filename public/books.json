@@ -1,0 +1,80 @@
+[
+    {
+        "bookId": "1",
+        "bookName": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "image": "https://i.ibb.co/92g3SPV/to-kill-a-mockingbird-book-cover-by-darkknight1986-dbms9xp.jpg",
+        "review": "A gripping, heart-wrenching, and wholly remarkable tale of coming-of-age in a South poisoned by virulent prejudice.",
+        "totalPages": 336,
+        "rating": 4.8,
+        "category": "Fiction",
+        "tags": ["Classic", "Historical", "Drama"],
+        "publisher": "J.B. Lippincott & Co.",
+        "yearOfPublishing": 1960
+    },
+    {
+        "bookId": "2",
+        "bookName": "1984",
+        "author": "George Orwell",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71kxa1-0mfL.jpg",
+        "review": "A dystopian novel set in a totalitarian society ruled by Big Brother. A chilling portrayal of a world devoid of freedom and privacy.",
+        "totalPages": 328,
+        "rating": 4.7,
+        "category": "Dystopian",
+        "tags": ["Science Fiction", "Political", "Classic"],
+        "publisher": "Secker & Warburg",
+        "yearOfPublishing": 1949
+    },
+    {
+        "bookId": "3",
+        "bookName": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81af+MCATTL.jpg",
+        "review": "A critique of the American Dream set in the Roaring Twenties. The story of the mysterious Jay Gatsby and his unrequited love for Daisy Buchanan.",
+        "totalPages": 180,
+        "rating": 4.4,
+        "category": "Fiction",
+        "tags": ["Classic", "Romance", "Tragedy"],
+        "publisher": "Charles Scribner's Sons",
+        "yearOfPublishing": 1925
+    },
+    {
+        "bookId": "4",
+        "bookName": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/91HHqVTAJQL.jpg",
+        "review": "A romantic novel that also offers a keen critique of the British class structure and gender expectations of the early 19th century.",
+        "totalPages": 279,
+        "rating": 4.6,
+        "category": "Romance",
+        "tags": ["Classic", "Romance", "Social Commentary"],
+        "publisher": "T. Egerton",
+        "yearOfPublishing": 1813
+    },
+    {
+        "bookId": "5",
+        "bookName": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81OthjkJBuL.jpg",
+        "review": "A story about adolescent alienation and loss of innocence in the protagonist Holden Caulfield. A must-read for understanding teenage angst.",
+        "totalPages": 214,
+        "rating": 4.2,
+        "category": "Fiction",
+        "tags": ["Classic", "Young Adult", "Drama"],
+        "publisher": "Little, Brown and Company",
+        "yearOfPublishing": 1951
+    },
+    {
+        "bookId": "6",
+        "bookName": "Moby-Dick",
+        "author": "Herman Melville",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxqoat7nvgrqgwsKmj5ABaUNyRhGxaJ08cYsvDyJmR8LMGV71O",
+        "review": "An epic tale of the voyage of the whaling ship Pequod and its captain, Ahab, who is obsessed with revenge on the giant white whale Moby Dick.",
+        "totalPages": 635,
+        "rating": 4.1,
+        "category": "Adventure",
+        "tags": ["Classic", "Adventure", "Epic"],
+        "publisher": "Harper & Brothers",
+        "yearOfPublishing": 1851
+    }
+]
