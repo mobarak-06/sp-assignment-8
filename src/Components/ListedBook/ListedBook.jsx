@@ -1,8 +1,27 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { RiArrowDropDownLine } from "react-icons/ri";
-import { Link, Outlet } from "react-router-dom";
+import { Link, Outlet, useSearchParams } from "react-router-dom";
+import { getBooks } from "../../Utils";
 const ListedBook = () => {
   const [tabIndex, setTabIndex] = useState(0);
+   const [sortedBooks, setSortedBook] = useState([]);
+   const [searchParams, setSearchParams] = useSearchParams();
+
+   useEffect(() =>{
+    const storedBooks = getBooks();
+    setSortedBook(storedBooks)
+   } ,[])
+   
+   const setDescendingRating =()=>{
+    setSearchParams('?sort=rating')
+    
+   }
+   const setDescendingTotalPages = () =>{
+    setSearchParams('?sort=totalPages')
+   }
+   const setDescendingYearOfPublishing = () =>{
+    setSearchParams('?sort=yearOfPublishing')
+   }
   return (
     <div>
       <div className="bg-[#1313130D] h-24 rounded-2xl py-8 mt-9">
@@ -16,13 +35,13 @@ const ListedBook = () => {
           </summary>
           <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
             <li>
-              <a>Rating</a>
+              <a onClick={setDescendingRating}>Rating</a>
             </li>
             <li>
-              <a>Number of pages</a>
+              <a onClick={setDescendingTotalPages}>Number of pages</a>
             </li>
             <li>
-              <a>Published Year</a>
+              <a onClick={setDescendingYearOfPublishing}>Published Year</a>
             </li>
           </ul>
         </details>

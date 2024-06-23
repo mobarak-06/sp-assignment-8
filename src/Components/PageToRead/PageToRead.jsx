@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-no-undef */
 
-import { useLoaderData } from "react-router-dom";
+
 import {
   BarChart,
   Bar,
@@ -77,6 +77,7 @@ const PageToRead = () => {
             dataKey="uv"
             fill="#82ca9d"
             activeBar={<Rectangle fill="gold" stroke="purple" />}
+            
           />
       </BarChart>
     </div>
